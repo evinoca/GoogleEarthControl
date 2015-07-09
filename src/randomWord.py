@@ -1,10 +1,10 @@
+# -*- coding: cp936 -*-
 '''
 Created on 2014-2-20
 
 @author: yutings
 '''
 import random
-
 stringList = []
 
 if __name__ == '__main__':
@@ -19,9 +19,8 @@ if __name__ == '__main__':
                 if word not in output:
                     output.append(word)
                     i+=1
-                                    
+
             print output
         else:
             stringList.append(string)
             print "Add: ",string
-            
