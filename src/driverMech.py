@@ -8,9 +8,11 @@ Try not to fail a friend's wish.
 
 '''
 
+
+
 class boat():
     def __init__():
-        print "Hi I am a boat"
+        print "Hi, I am a boat"
 
     def __del__():
         print "Bye, i will be gone"
@@ -21,4 +23,11 @@ class boat():
         '''
         print "Moving to :"+locationAxis_Array[0]+locationAxis_Array[1]
 
-    def stear
+    def steering(angle_degree_Double):
+        if angle_degree_Double<0:
+            print "Turning left for "+str(abs(angle_degree_Double))+"Degree"
+        else:
+            print "Turning right for "+str(abs(angle_degree_Double))+"Degree"
+
+    def changePowerOutput():
+        pass
