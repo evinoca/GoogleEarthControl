@@ -5,6 +5,33 @@ abstract AbstractCollection
 interface List
 interface Collection
 
+
+interface driver{
+  {static} RotationalSpeed
+  {static} votage
+  {static} ampere
+  type
+  producer
+}
+
+class Boat_Object {
+  {static} String id
+  {abstract} void move(Axis)
+}
+
+class Motor{
+
+	{static}Initial
+	voidPoweron()
+	(void)Power off
+	(bool)Check Status
+
+}
+
+Boat_Object <|-- Motor
+TimeUnit <|-- Motor
+
+
 List <|-- AbstractList
 Collection <|-- AbstractCollection
 
