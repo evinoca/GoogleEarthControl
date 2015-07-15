@@ -10,6 +10,7 @@ Try not to fail a friend's wish.
 
 
 
+
 class boat():
     def __init__():
         print "Hi, I am a boat"
