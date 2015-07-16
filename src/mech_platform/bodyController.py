@@ -1,11 +1,11 @@
 #encoding: utf-8
 
-
-
-
-class boatBody():
+class bodyController():
+    '''
+    Define a main frame for a machine body actions and logic route
+    '''
     def __init__():
-        print "Hi, I am a boat"
+        print "Hi, I am a bodyController"
 
     def __del__():
         print "Bye, i will be gone"
@@ -24,3 +24,6 @@ class boatBody():
 
     def changePowerOutput():
         pass
+
+
+class driver
