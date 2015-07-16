@@ -2,7 +2,8 @@
 
 
 
-class boat():
+
+class boatBody():
     def __init__():
         print "Hi, I am a boat"
 
